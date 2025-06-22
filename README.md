@@ -11,8 +11,8 @@ El sistema permite reducir la dimensionalidad de las imágenes médicas y entren
 ├── detector.py # Código principal
 ├── dataset/ # Carpeta contenedora del dataset
 │ └── imagenes/
-│ ├── NORMAL/ # Radiografías de pacientes sanos (100 imágenes)
-│ └── PNEUMONIA/ # Radiografías con neumonía (100 imágenes)
+│     ├── NORMAL/ # Radiografías de pacientes sanos (100 imágenes)
+│     └── PNEUMONIA/ # Radiografías con neumonía (100 imágenes)
 └── README.md # Este archivo
 ```
 ---
