@@ -33,7 +33,7 @@ Puedes instalar los requerimientos con:
 ```bash
       pip install numpy pillow matplotlib scikit-learn
 ```
-# Dataset utilizado
+## Dataset utilizado
 Este proyecto utiliza el conjunto de datos público Chest X-Ray Images (Pneumonia), disponible en Kaggle.
 
 Link del dataset:
@@ -50,7 +50,7 @@ proyecto/
 ```
 Para este proyecto se utilizan 100 imágenes normales y 100 con neumonía seleccionadas aleatoriamente desde la carpeta train/.
 
-# Cómo ejecutar el programa
+## Cómo ejecutar el programa
 
 1. Clona o descarga este repositorio.
 2. Instala las dependencias.
@@ -59,11 +59,11 @@ Para este proyecto se utilizan 100 imágenes normales y 100 con neumonía selecc
 
 El sistema entrenará el modelo, aplicará reducción de dimensionalidad con PCA y mostrará los resultados de clasificación con una matriz de confusión y métricas como precisión, recall y F1-score.
 
-# Resultados esperados
+## Resultados esperados
 
 - Visualización de las radiografías proyectadas en un plano 2D (PCA).
 - Precisión promedio de clasificación: ~88% (según el conjunto de prueba).
 - Evaluación automática del modelo con métricas confiables.
 
-# Créditos
+## Créditos
 Este proyecto fue desarrollado como parte del curso Álgebra Lineal Computacional en la Universidad San Ignacio de Loyola, con fines académicos.
