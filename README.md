@@ -1,4 +1,4 @@
-#Detección Automatizada de Neumonía en Radiografías de Tórax mediante PCA y KNN
+# Detección Automatizada de Neumonía en Radiografías de Tórax mediante PCA y KNN
 
 Este proyecto implementa un sistema de detección automatizada de neumonía en radiografías de tórax utilizando técnicas de álgebra lineal computacional como el **Análisis de Componentes Principales (PCA)** y el algoritmo de clasificación **K-Vecinos Más Cercanos (KNN)**.
 
