@@ -7,12 +7,14 @@ El sistema permite reducir la dimensionalidad de las imágenes médicas y entren
 ---
 
 ## 📂 Estructura del proyecto
-
-proyecto/
-└── dataset/
-└── imagenes/
-├── NORMAL/
-└── PNEUMONIA/
+```
+├── detector.py # Código principal
+├── dataset/ # Carpeta contenedora del dataset
+│ └── imagenes/
+│ ├── NORMAL/ # Radiografías de pacientes sanos (100 imágenes)
+│ └── PNEUMONIA/ # Radiografías con neumonía (100 imágenes)
+└── README.md # Este archivo
+```
 ---
 
 ## Requisitos del sistema
@@ -39,13 +41,13 @@ https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
 Importante:
 Debes descargar manualmente el dataset y ubicarlo de la siguiente forma:
-
+```
 proyecto/
 └── dataset/
     └── imagenes/
         ├── NORMAL/
         └── PNEUMONIA/
-
+```
 Para este proyecto se utilizan 100 imágenes normales y 100 con neumonía seleccionadas aleatoriamente desde la carpeta train/.
 
 # Cómo ejecutar el programa
