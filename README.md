@@ -9,13 +9,10 @@ El sistema permite reducir la dimensionalidad de las imágenes médicas y entren
 ## 📂 Estructura del proyecto
 
 proyecto/
-    detector.py # Código principal
-    dataset/ # Carpeta contenedora del dataset
-       imagenes/
-           NORMAL/ # Radiografías de pacientes sanos (100 imágenes)
-           PNEUMONIA/ # Radiografías con neumonía (100 imágenes)
-     README.md # Este archivo
-
+└── dataset/
+└── imagenes/
+├── NORMAL/
+└── PNEUMONIA/
 ---
 
 ## Requisitos del sistema
